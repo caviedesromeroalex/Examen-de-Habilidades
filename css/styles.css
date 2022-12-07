@@ -51,10 +51,13 @@ body {
 }
 
 .header {
-    padding: 50px 0;
-    background: #80cae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(../img/header.jpg) no-repeat center;
+    background-size: cover;
 }
-
 .title {
     margin-bottom: 40px;
     font-size: 60px;
@@ -137,8 +140,10 @@ p {
 }
 
 .price {
-    padding: 50px 0;
-    background: #80cae0;
+    background: url(../img/costos.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
 
 .about {
