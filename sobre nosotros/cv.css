@@ -1,15 +1,22 @@
 body {
-    background-color: #171717;
-
+    background: url(../img/5437842.jpg) no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
 }
 dl {
     background-color: #ffffff;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
-    width: 45%;
+    width: 20%;
     margin: 0 auto;
 }
 legend {
     background-color: #76d5f7;
     border-radius: 20px;
+}
+img {
+    width: 150 px;
+    height: 20 px;
 }
